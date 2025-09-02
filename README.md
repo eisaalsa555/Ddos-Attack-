@@ -1,20 +1,30 @@
-# Ddos-Attack-
-Hii Guys This Is A Ddos Attack Repository 
+# DDoS-Attack Tool
 
+⚠️ **Disclaimer**: This project is made for **educational purposes only**.  
+Do **NOT** use this script to attack websites/servers without permission.  
+Illegal usage can land you in serious trouble 🚫.
 
-# Please Read All Disclaimer 
-Look, it is very illegal and unlawful to do pie attack on any website or real server, so always do pie testing on your own server, thanks 
+---
 
-# Installaion 
-   ```bash
-pkg update && pkg upgrade 
-pkg install python 
-pkg install git
-pkg install pip
-pip install coloroma
-pip install threading 
-pip install requests
-pip install socket
-pip install time
+## 📌 Installation (Termux)
+
+Follow these steps to install and run:
+
+```bash
+# Update & upgrade Termux
+pkg update && pkg upgrade -y
+
+# Install required packages
+pkg install python git -y
+
+# Clone this repository
 git clone https://github.com/eisaalsa555/Ddos-Attack-.git
+
+# Go into project folder
+cd Ddos-Attack-
+
+# Install Python dependencies
+pip install colorama requests
+
+# Run the tool
 python Ddos.py
