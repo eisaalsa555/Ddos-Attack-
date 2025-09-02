@@ -16,4 +16,5 @@ pip install threading
 pip install requests
 pip install socket
 pip install time
-git clone 
+git clone https://github.com/eisaalsa555/Ddos-Attack-.git
+python Ddos.py
